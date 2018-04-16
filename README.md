@@ -37,5 +37,5 @@ Have fun watching trailers on my website.
 - fresh_tomatoes.py - Starter code provided by Udacity to load a website with the list of movies provided.
 - entertainment_center.py - This file runs the module open_movies_page from fresh_tomatoes to loads a website that stores a    
   list of movie titles, along with respective box art imagery and movie trailer website.
-- media.py - This file contains the base class Movie that contains the following instance variable - movie title, storyline,   
-  poster URL and trailer youtube URL.
+- media.py - This file contains the base class Movie that contains the init function that has the following instance variable 
+  - movie title, storyline, poster URL and trailer youtube URL.
