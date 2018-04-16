@@ -2,9 +2,7 @@
 """
 import webbrowser
 
-
-class Movie():
-    """Summary of Movie class.
+"""Summary of Movie class.
 
     Movie class encapsulates the following information about a movie:
     name, storyline, poster link, youtube URL.
@@ -14,11 +12,14 @@ class Movie():
         storyline: A string explaining the movie story in a line.
         poster_image_url: A string containing URL of the movie poster online.
         trailer_youtube_url: A string containing youtube URL for the movie.
-   """
+"""
+
+
+class Movie():
+
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
-        """ Inits Movie class with the arguments passed.
-        """
+        """ Inits Movie class with the arguments passed."""
 
         self.title = movie_title
         self.storyline = movie_storyline
@@ -28,10 +29,5 @@ class Movie():
     def show_trailer(self):
         """ Opens the movie youtube URL link in the web browser, using
             webbrowser python library function.
-
-            Args: None
-
-            Returns: None
         """
         webbrowser.open(self.trailer_youtube_url)
-
