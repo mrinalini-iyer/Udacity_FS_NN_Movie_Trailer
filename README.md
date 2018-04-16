@@ -13,7 +13,7 @@ The data is served as a web page allowing visitors to review the movies and watc
 
 2. Checkout or git clone using
 
-$ git clone https://github.com/mrinalini-iyer/Udacity_FS_NN_Movie_Trailer.git
+   $ git clone https://github.com/mrinalini-iyer/Udacity_FS_NN_Movie_Trailer.git
 
 3. Open Idle, and from the file menu option open the following file
 
@@ -34,6 +34,8 @@ Have fun watching trailers on my website.
 
 ## File description
 
-fresh_tomatoes.py - Starter code provided by Udacity to load a website with the list of movies provided.
-entertainment_center.py - This file runs the module open_movies_page from fresh_tomatoes to loads a website that stores a list of movie titles, along with respective box art imagery and movie trailer website.
-media.py - This file contains the base class Movie that contains the following instance variable - movie title, storyline, poster URL and trailer youtube URL.
+- fresh_tomatoes.py - Starter code provided by Udacity to load a website with the list of movies provided.
+- entertainment_center.py - This file runs the module open_movies_page from fresh_tomatoes to loads a website that stores a    
+  list of movie titles, along with respective box art imagery and movie trailer website.
+- media.py - This file contains the base class Movie that contains the following instance variable - movie title, storyline,   
+  poster URL and trailer youtube URL.
